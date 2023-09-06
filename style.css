@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+#chart {
+    height: 200px;
+    width: 200px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: conic-gradient(#009bdb 0deg, #009bdb 270deg, #bec7d0 270deg, #bec7d0 289deg, #009bdb 289deg, #009bdb 308deg, #00435f 308deg, #00435f 325deg, #6bccf5 325deg, #6bccf5 342deg, #75ae4e 342deg);
+    border-radius: 50%;
+  }
+ .container-flex {
+    position: relative;
+ }
+  .hollow {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hollow p {
+    padding-top: 3.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
